@@ -1,8 +1,9 @@
 // Al click di header right devo mostrare hamburger menu
 
 // creo var con media query
-va
+var media = window.watchMedia("(max-width: 700px)");
+
 $('header-right  i').click(function() {
-  $('hamburger-menu').addClass('hamburger-menu.active');
+  $('hamburger-menu').addClass('active');
   console.log('hamburger-menu');
 });
