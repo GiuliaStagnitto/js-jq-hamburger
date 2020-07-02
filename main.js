@@ -3,7 +3,7 @@
 // creo var con media query
 var media = window.watchMedia("(max-width: 700px)");
 
-$('header-right  i').click(function() {
-  $('hamburger-menu').addClass('active');
-  console.log('hamburger-menu');
+$('.header-right  i').click(function() {
+  $('.hamburger-menu').addClass('.active');
+  console.log('.hamburger-menu');
 });
